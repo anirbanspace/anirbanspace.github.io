@@ -1,0 +1,428 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anirban Dutta</title>
+	<!--fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<!--//fonts-->
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Kong Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- js -->
+	<!-- start-smooth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smooth-scrolling -->
+
+</head>
+<body>
+<!-- banner -->
+<div class="banner" id="home">
+	<div class="container"> 
+		<div class="top-header row">
+			<script src="js/classie.js"></script>
+			<!--top-nav---->
+			
+			<div class="top-nav">
+				<div class="nav-icon">
+					    <a href="#" class="right_bt" id="activator"><span> </span> </a>
+				</div>
+				<div class="box" id="box">
+					<div class="box_content">        					                         
+						<div class="box_content_center">
+							<div class="form_content">
+								<div class="menu_box_list">
+									<ul>
+										<li><a class="scroll" href="#home"><span>home</span></a></li>
+										<li><a class="scroll" href="#about"><span>about</span></a></li>
+										<li><a class="scroll" href="#services"><span>services</span></a></li>
+										
+										<li><a class="scroll" href="#contact"><span>Contact</span></a></li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+								<a class="boxclose" id="boxclose"> <span> </span></a>
+							</div>                                  
+						</div> 	
+					</div> 
+				</div>       	  
+			</div>
+			<!---start-click-drop-down-menu----->
+			        <!----start-dropdown--->
+			         <script type="text/javascript">
+						var $ = jQuery.noConflict();
+							$(function() {
+								$('#activator').click(function(){
+									$('#box').animate({'top':'0px'},900);
+								});
+								$('#boxclose').click(function(){
+								$('#box').animate({'top':'-1000px'},900);
+								});
+							});
+							$(document).ready(function(){
+							//Hide (Collapse) the toggle containers on load
+							$(".toggle_container").hide(); 
+							//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+							$(".trigger").click(function(){
+								$(this).toggleClass("active").next().slideToggle("slow");
+									return false; //Prevent the browser jump to the link anchor
+							});
+												
+						});
+					</script>
+			<!---//End-click-drop-down-menu----->
+			<div class="clearfix"> </div>
+		</div>
+		<div class="banner-info">
+			<div class="banner-left">
+				<img src="images/1.png" alt=""/>
+			</div>
+			<div class="banner-right">
+				<h1>I’m Anirban</h1>
+				<div class="border"></div>
+				<h2>Love to learn</h2>
+				<a href="#">DOWNLOAD MY RESUME</a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--/header-banner-->
+<!--about-->
+<div class="about text-center" id="about">
+	<div class="container">
+		<h3>ABOUT ME</h3>
+		<div class="strip text-center"><img src="images/about.png" alt=" "/></div>
+		<p>CS undergrad. I love astronomy. I love Quora. :) </p>
+		<ul>
+			<li><a class="fb" href="#"></a></li>
+			<li><a class="twit" href="#"></a></li>
+			<li><a class="in" href="#"></a></li>
+			<li><a class="drib" href="#"></a></li>
+			<li><a class="goog" href="#"></a></li>
+			<li><a class="pin" href="#"></a></li>
+		</ul>
+	</div>
+</div>
+<!--//about-->
+<div class="about-back"></div>
+<!--my skill-->
+<div class="my-skills text-center">
+	<div class="container">
+		<h3>MY SKILLS</h3>
+		<div class="strip text-center"><img src="images/skill.png" alt=" "/></div>
+		<div class="skill-grids">
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-1"></div>
+						<p>Blender</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-2"></div>
+						<p>Photography</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-3"></div>
+						<p>Gimp</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-4"></div>
+						<p>Html 5 / CSS 3</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-5"></div>
+						<p>C,C++</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-6"></div>
+						<p>C#</p>
+					</div>
+					<div class="clearfix"> </div>
+				 <script type="text/javascript" src="js/circles.js"></script>
+					         <script>
+								var colors = [
+										['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff']
+									];
+								for (var i = 1; i <= 7; i++) {
+									var child = document.getElementById('circles-' + i),
+										percentage = 10 + (i * 10);
+										
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     80,
+										width:      10,
+										number:   	percentage / 1,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+								}
+						
+				</script>
+		</div>
+	</div>	
+</div>
+<!--//my skill-->
+<div class="my-skill-back"></div>
+<!--education-->
+<div class="education text-center">
+	<div class="container">
+		<div class="edu-info">
+			<h3>EDUCATION</h3>
+		</div>
+		<div class="strip text-center"><img src="images/edu.png" alt=" "/></div>
+		<div class="edu-grids">
+			<div class="col-md-4 edu-grid">
+				<p>2010 - 2015</p><span>Graduation</span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>B.sc OF Computer Science and Engineering</h3>
+						<h4>Chittagong University of Engineering and Technology</h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>Chittagong,Bangladesh</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 edu-grid">
+				<p>2008 - 2010</p><span>College</span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>Higher Secondary School Certificate</h3>
+						<h4>Ispahani Public School and College</h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>Chittagong,Bangladesh</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 edu-grid">
+				<p>2002 - 2008</p><span>School</span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>Secondary School Certificate</h3>
+						<h4>TSP Complex Secondary School</h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>Chittagong,Bangladesh</h5>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	
+</div>
+<!--//education-->
+<div class="strip-border"><p></p></div>
+<!--work-->
+<div class="work-experience text-center">
+	
+	<div class="container">
+		<div class="work-info">
+			<h3>WORK EXPERIENCE</h3>
+		</div>
+		<div class="strip text-center"><img src="images/work.png" alt=" "/></div>
+		<div class="work-grids">
+			<div class="col-md-12 w-grid">
+				<div class="work-grid">
+					<h3>2014 - 2014</h3>
+					<div class="work-grid-info">
+						<h4>Grameen Solutions Ltd.</h4>
+						<h5>Internship</h5>
+						<p>To build some android application using Titanium</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//work-->
+<div class="services-back"></div>
+
+<!--services-->
+<div class="services text-center" id="services">
+	<div class="container">
+		<div class="ser-info">
+			<h3>SERVICES</h3>
+		</div>
+		<div class="strip text-center"><img src="images/ser.png" alt=" "/></div>
+		<div class="ser-grids">
+			<div class="col-md-4 ser-grid">
+				<div class="ser-imagea"></div>
+				<h3>Web Design</h3>
+				<p></p>
+			</div>
+			<div class="col-md-4 ser-grid">
+				<div class="ser-imageb"></div>
+				<h3>Graphic Design</h3>
+				<p></p>
+			</div>
+			
+			<div class="col-md-4 ser-grid">
+				<div class="ser-imaged"></div>
+				<h3>Development</h3>
+				<p></p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//services-->
+
+<!--process-->
+<div class="process text-center">
+	<div class="container">
+		<h3>PROCESS</h3>
+		<div class="strip text-center"><img src="images/pro.png" alt=" "/></div>
+		<div class="process-girds">
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagea"></div>
+					<p>IDEA</p>
+					<img src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imageb"></div>
+					<p>CONCEPT</p>
+					<img class="pro-imga" src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagec"></div>
+					<p>DESIGN</p>
+					<img class="pro-img" src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imaged"></div>
+					<p>DEVELOP</p>
+					<img class="pro-imgb" src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagee"></div>
+					<p>TEST</p>
+					<img src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagef"></div>
+					<p>LAUNCH</p>
+					
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//process-->
+<div class="process-back"></div>
+
+
+
+<div class="contact-back"></div>
+<!--contact-->
+<div class="contact" id="contact">
+	<div class="container">
+		<div class="contact-info text-center">
+			<h3>CONTACT</h3>
+			<div class="strip text-center"><img src="images/con1.png" alt=" "/></div>
+		</div>
+		<div class="contact-grids">
+			<div class="col-md-5 contact-left">
+				<h3>Say Hi to Me</h3>
+				<div class="stripb"></div>
+				<ul>
+					<li>W. Mahadevpur </li>
+					<li>Sitakund </li>
+					<li>Chittagong, Bangladesh</li>
+					<li>+880 1714 281 735</li>
+					<li><a href="mailto:anirban@dutta.me">anirban@dutta.me</a></li>
+					<li><a href="#">www.dutta.me</a></li>
+				</ul>
+			</div>
+			<div class="col-md-7 contact-right">
+				<h3>Drop Me A Line</h3>
+				<div class="stripb"></div>
+				<form>
+					<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+					<input type="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}" required="">
+					<textarea type="text" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}" required="">Message</textarea>
+					<input type="submit" value="SEND">
+				</form>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//contact-->
+<div class="footer-top"></div>
+<!--resume-->
+<div class="resume text-center">
+	<div class="container">
+		<div class="strip text-center"><a href="#"><img src="images/down.png" alt=" "/></a></div>
+		<div class="down"><a href="#">Download My Resume</a></div>
+	</div>
+</div>
+<!--//resume-->
+
+<!--footer-->
+<div class="footer">
+	<div class="container">
+		<p>Copyright &copy; 2015 Kong. Template by <a href="http://w3layouts.com/"> W3layouts</a></p>
+	</div>
+</div>
+<!--//footer-->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
