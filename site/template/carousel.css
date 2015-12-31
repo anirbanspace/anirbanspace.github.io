@@ -1,0 +1,186 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 170px;
+  padding-bottom: 40px;
+  color: #5a5a5a;
+  font-color: #feffaa;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  margin-top: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.navbar-wrapper .navbar {
+  margin-top: 0px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  margin-top: 0px;
+
+  width: auto;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+#template-carousel{
+
+}
+/* Carousel base class */
+.carousel {
+  margin-top: 60px;
+  margin-left: 13%;
+  margin-right: 13%;
+  height: 510px;
+  margin-bottom: 60px;
+  width: 70%;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  margin-top: 0px;
+  margin-left: 13%;
+  margin-right: 13%;
+  
+  height: 510px;
+  min-width: 100%; 
+  background-color: transparent;
+}
+.carousel-inner > .item > img {
+  
+ 
+  position: absolute;
+ 
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.col-md-4 {
+  color:#feffaa;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.col-md-2 {
+  color:#feffaa;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 17px;
+}
+
+.col-md-2 p{
+  margin-bottom: 0;
+}
+
+
+.col-md-4 h2 {
+  color:#feffaa;
+  font-weight: normal;
+}
+.col-md-4 p {
+  color:#feffaa;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 17px;
+}
+
+/* Featurettes
+------------------------- */
+
+
+footer p{
+  color:#feffaa;
+}
+footer a{
+  color:#feffaa;
+}
+
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 0px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 6px;
+  }
+
+  .navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+
+
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+  
+  .slider-size > img {
+         width: 80%;
+    }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 20px;
+  }
+  
+    .slider-size > img {
+        width: 80%;
+    }
+}
+
